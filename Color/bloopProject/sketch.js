@@ -1,16 +1,16 @@
-var circleX = 0;
-var circleY = 0;
-var diam = 20;
-var transparency = 0;
-var r = 0;
-var g = 0;
-var b = 0;
-var qnt;
-var x = 0;
-var sort;
+let circleX = 0;
+let circleY = 0;
+let diam = 20;
+let transparency = 0;
+let r = 0;
+let g = 0;
+let b = 0;
+let qnt;
+let x = 0;
+let sort;
 
 function setup() {
-  pixelDensity(5);
+  pixelDensity(10);
   canvas = createCanvas(1200, 600);
   background(255);
   qnt = random(300, 900);
